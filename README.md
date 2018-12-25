@@ -2,9 +2,9 @@
 Gesture Recognition implements of PaddlePaddle
 
 # Introduce
-1、classify.ipynb: 训练器代码
-2、utils.py: 图像处理 
-3、infer.py: 使用训练好的代码进行预测  
+1、classify.ipynb: 训练器代码  
+2、utils.py: 图像处理   
+3、infer.py: 使用训练好的代码进行预测   
 4、gesture: 训练代码   
 5、fronted: 前端可视化  
 
