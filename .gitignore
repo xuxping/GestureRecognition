@@ -101,4 +101,9 @@ venv.bak/
 /site
 
 # mypy
+logs
+gesture/train/
+.DS_Store
+DNN_model/
+.ipynb_checkpoints/
 .mypy_cache/
