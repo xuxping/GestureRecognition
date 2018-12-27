@@ -13,7 +13,7 @@ Gesture Recognition implements of PaddlePaddle
 2、classify.ipynb训练代码模型，生成的模型保存在DNN_model/下  
 3、使用infer.py进行预测  
 
-# Enviroment    
+# Environment    
 在Python2.7的环境下开发  
 1、PaddlePaddle Fluid 1.2（建议使用官方docker）  
 2、jupyter    
