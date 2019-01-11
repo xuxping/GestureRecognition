@@ -42,11 +42,11 @@ class BaseHandler(tornado.web.RequestHandler):
 
     def on_response(self, response):
         callback = self.get_argument("callback", None)
+        self.set_header("Access-Control-Allow-Origin", "*")
+        self.set_header('Access-Control-Allow-Methods', '*')
+        self.set_header('Access-Control-Allow-Credentials', 'true')
+        self.set_header('Access-Control-Allow-Headers', '*')
         if callback is not None:
-            self.set_header("Access-Control-Allow-Origin", "*")
-            self.set_header('Access-Control-Allow-Methods', '*')
-            self.set_header('Access-Control-Allow-Credentials', 'true')
-            self.set_header('Access-Control-Allow-Headers', '*')
             response = str(callback) + '(' + json.dumps(response) + ')'
         else:
             response = json.dumps(response)
