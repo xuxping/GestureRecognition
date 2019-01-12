@@ -2,6 +2,10 @@
 
 调用方法，用浏览器打开 classify.html 即可。
 
+效果如下：
+
+![](./images/demo.png)
+
 注意事项：
 
 classify.html 中的 tts 方法中参数tok，如果过期了之后，需要自己在百度 AI 平台申请一个语音合成账号获取对应的
