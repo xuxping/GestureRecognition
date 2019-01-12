@@ -102,8 +102,10 @@ venv.bak/
 
 # mypy
 logs
-gesture/train/
+gesture
 .DS_Store
 DNN_model/
 .ipynb_checkpoints/
 .mypy_cache/
+models-*
+api_data

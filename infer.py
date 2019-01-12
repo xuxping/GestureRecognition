@@ -74,7 +74,7 @@ def convolutional_neural_network():
     
     
     # 以softmax为激活函数的全连接输出层，输出层的大小必须为10,对应0-9这10个数字
-    predict = fluid.layers.fc(input=conv_pool2, size=10, act='softmax')
+    predict = fluid.layers.fc(input=conv_pool2, size=5, act='softmax')
     
     return predict
 
